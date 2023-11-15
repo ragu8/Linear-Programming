@@ -1,5 +1,5 @@
  # Linear Programming
-This repository contains Python implementations for solving Linear Programming problems. 
+![Local Image](docs/banner.jpg)
 
 ## File Structure
 ```
