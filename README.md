@@ -1,4 +1,4 @@
-# Linear Programming
+ # Linear Programming
 This repository contains Python implementations for solving Linear Programming problems. 
 
 ## File Structure
