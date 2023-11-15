@@ -1,5 +1,5 @@
  # Linear Programming
-![Local Image](docs/banner.jpg)
+![ ](docs/banner.jpg)
 
 ## File Structure
 ```
