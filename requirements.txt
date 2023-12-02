@@ -2,3 +2,4 @@ numpy==1.21.1
 matplotlib==3.4.3
 scipy==1.7.0
 pulp
+pandas
