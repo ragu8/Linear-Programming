@@ -38,7 +38,7 @@ def graphical_method(constraints, objective_function, problem_type):
                 plt.fill_between(x_values, 0, y_values, where=((constraint[0] * x_values) + constraint[1] * y_values) >= constraint[2], color=f'C{i}', alpha=0.3)
 
         c = objective_function[:2] if problem_type == 'min' else -np.array(objective_function[:2])
-        res = linprog(c, A_ub=constraints[:, :2], b_ub=constraints[:, 2], method='highs')
+        res = linprog(c, A_ub=constraints[:, :2], b_ub=constraints[:, 2])
 
         print_results(res, problem_type)
 

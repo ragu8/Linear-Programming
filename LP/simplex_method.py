@@ -7,7 +7,7 @@ def simplex(c, A, b, maximize=True, plot_3d=False):
     def simplex_solver(c, A, b, maximize=True):
         if maximize:
             c = -c  # Convert maximization to minimization
-        result = linprog(c, A_ub=A, b_ub=b, method='highs')
+        result = linprog(c, A_ub=A, b_ub=b)
         return result
 
     def simplex_print_solution(result):
